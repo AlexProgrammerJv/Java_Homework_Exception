@@ -19,6 +19,6 @@ public class IteratorRecords implements java.util.Iterator<Record> {
 
     @Override
     public Record next() {
-       return phoneDirectory.get(count++);
+        return phoneDirectory.get(count++);
     }
 }
